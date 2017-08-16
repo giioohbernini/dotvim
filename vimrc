@@ -1,15 +1,11 @@
 " Gerenciador de plugins
-"execute pathogen#infect()
+execute pathogen#infect()
 
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
-
-
-
+" Remapear tecla do emmit
+let g:user_emmet_leader_key=','
 
 " Esquema de cores
-colorscheme industry
+colorscheme dracula
 
 " Tamanho da identação
 set tabstop=2
@@ -37,3 +33,15 @@ set incsearch
 
 " Destaque nos resultados
 set hlsearch
+
+" Salvar na codificação desejada
+"set fileencoding=iso-8859-1
+
+" visualizar na codificação desejada
+"set encoding=iso-8859-1
+
+" usar espaços no lugar de tab
+set expandtab
+
+" backspace respeitar identação
+set softtabstop=2
