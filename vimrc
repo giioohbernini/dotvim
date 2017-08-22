@@ -45,3 +45,6 @@ set expandtab
 
 " backspace respeitar identação
 set softtabstop=2
+
+" EJS highlight
+au BufNewFile,BufRead *.ejs set filetype=html
